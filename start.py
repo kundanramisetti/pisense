@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import RPi.GPIO as GPIO, json, requests, logging
+import RPi.GPIO as GPIO, json, requests, logging, time
 # Custom modules
 import config
 
