@@ -41,7 +41,7 @@ def lightsOff() :
 
 def init(*args) :
     notify()
-    time.sleep(config.BOUNCE_TIME)
+    time.sleep(18)
     lightsOff()
 
 GPIO.add_event_detect(config.PORT, GPIO.RISING, callback=init, bouncetime=config.BOUNCE_TIME)
